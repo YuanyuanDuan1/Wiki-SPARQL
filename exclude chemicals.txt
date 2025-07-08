@@ -1,0 +1,66 @@
+Q1832	gadolinium	Q1882	berkelium	Q876	selenium
+Q428640	unbiennium	Q7425	unbibium	Q725	chromium
+Q428635	untribium	Q428629	untriunium	Q740	cobalt
+Q3551921	unpentunium	Q869681	untrioctium	Q1302	flerovium
+Q3551929	unquadseptium	Q556	hydrogen	Q1119	hafnium
+Q3552040	untriquadium	Q1099	antimony	Q560	helium
+Q1896	fermium	Q688	chlorine	Q629	oxygen
+Q1898	mendelevium	Q1232	dubnium	Q703	potassium
+Q1809	promethium	Q1258	meitnerium	Q713	scandium
+Q428692	unbiseptium	Q1301	nihonium	Q938	strontium
+Q1366419	untriseptium	Q880	platinum	Q682	sulfur
+Q2399140	unquadennium	Q716	titanium	Q1054	technetium
+Q3029913	unquadnilium	Q1146	unbinilium	Q1306	tennessine
+Q3551919	unpentnilium	Q722	vanadium	Q758	zinc
+Q3551933	unquadtrium	Q708	lead	Q1115	thorium
+Q3551935	unquadunium	Q670	silicon	Q650	fluorine
+Q1892	einsteinium	Q932	thallium	Q674	phosphorus
+Q1849	erbium	Q1096	tin	Q1121	actinium
+Q1857	lutetium	Q663	aluminium	Q1108	caesium
+Q1853	thulium	Q706	calcium	Q1396	europium
+Q1466	unbiunium	Q671	francium	Q861	gallium
+Q428685	unbipentium	Q660	magnesium	Q744	nickel
+Q22313918	unpentquadium	Q731	manganese	Q751	osmium
+Q1876	curium	Q1252	hassium	Q737	rhenium
+Q1905	lawrencium	Q1053	molybdenum	Q1100	tellurium
+Q428703	unbioctium	Q1046	niobium	Q1098	uranium
+Q3551918	unpentbium	Q1089	palladium	Q871	arsenic
+Q3551927	unquadbium	Q677	iron	Q1112	barium
+Q3551926	unquadhexium	Q618	boron	Q569	beryllium
+Q3551931	unquadquadium	Q895	rubidium	Q942	bismuth
+Q3552038	untripentium	Q1090	silver	Q1249	bohrium
+Q22314315	unpentpentium	Q696	argon	Q623	carbon
+Q1901	nobelium	Q879	bromine	Q1278	copernicium
+Q548592	untriennium	Q1091	cadmium	Q925	mercury
+Q1195471	neutronium	Q753	copper	Q627	nitrogen
+Q3552041	untritrium	Q1266	darmstadtium	Q1109	protactinium
+Q1855	Ytterbium	Q867	germanium	Q658	sodium
+Q1843	dysprosium	Q1094	indium	Q1385	cerium
+Q1846	holmium	Q888	krypton	Q1307	oganesson
+Q1819	samarium	Q1304	livermorium	Q979	polonium
+Q1838	terbium	Q1388	neodymium	Q1133	radon
+Q54377	unbihexium	Q1105	neptunium	Q1087	rhodium
+Q428648	untrinilium	Q1102	plutonium	Q1234	seaborgium
+Q3551928	unquadoctium	Q1272	roentgenium	Q1123	tantalum
+Q3551930	unquadpentium	Q1086	ruthenium	Q877	iridium
+Q1872	americium	Q1226	rutherfordium	Q568	lithium
+Q1888	californium	Q743	tungsten	Q1303	moscovium
+Q1801	lanthanum	Q1038	zirconium	Q1386	praseodymium
+Q428741	unbiquadium	Q897	gold	Q1128	radium
+Q428758	unbitrium	Q1103	iodine	Q1139	ununennium
+Q868375	untrihexium	Q654	neon	Q1106	xenon
+Q3551924	unpenttrium	Q999	astatine	Q941	Yttrium
+Cations	Anions		
+Q27104698	aluminum cation	Q27110008	sulfide(.1-)
+Q26987404	magnesium cation	Q29004	hydrogen anion
+Q27115726	magnesium(1+)	Q417116	telluride(2-)
+Q27113880	silicon(4+)	Q27113570	telluride(.1-)
+Q27104738	vanadium(3+)	Q415296	arsenide(3-)
+Q152763	lithium cation	Q56250422	sulfide(2−)
+Q27113833	tungsten(4+)
+Q23905776	calcium(2+)
+Q27104290	strontium cation
+Q27255903	magnesium cation mg-28
+Q3154110	sodium ion
+Q27104730	rubidium cation
+
