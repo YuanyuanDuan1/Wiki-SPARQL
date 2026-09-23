@@ -15,5 +15,7 @@ Output columns: source_label	source_uniprot	source_ensembl	target_ensembl	target
 1.3 WikiPathway
 variable: None
 Only get the MIM interactions from for the input lists and the metabolite/chemical interactions only if any input gene is present in the pathway.
+output columns:source_label	source_ensembl	target_label	target_ensembl	interaction_type	pathway_id	pathway_count	pathway_name	evidence_count	source_database
+
 
 Part 2: Analyze the network
