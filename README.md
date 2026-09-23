@@ -29,7 +29,7 @@ Place the input workbook in a `data` folder beside the scripts. Each script read
 
 The current default inputs differ between scripts:
 
-| Workbook in `v3data/` | Sheet | Column |
+| Workbook in `data/` | Sheet | Column |
 | --- | --- | --- |
 | `Supplementary File 1.xlsx` | `Table S5` | `Ensembl_ID` |
 
@@ -86,8 +86,8 @@ No numerical confidence threshold is applied. These annotations describe pathway
 
 
 ## Downstream analysis
-Part 2: Analysis [datavisual.ipynb](datavisual.ipynb)
-The data analysis on the genes, interactions is analysis.ipynb
+Script at [datavisual.ipynb](datavisual.ipynb)
+The data analysis of the input genes, interactions.
 2.1 Check the input genes for sources and cross-reference
 2.2 GO enrichment and pathway overpresentation analysis for the input genes
 2.3 Network edge sources distribution 
