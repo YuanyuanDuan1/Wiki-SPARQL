@@ -8,9 +8,9 @@ from pathlib import Path
 import pandas as pd
 import requests
 SCRIPT_FOLDER = Path(__file__).resolve().parent
-DATA_FOLDER = SCRIPT_FOLDER / 'v3data'
-INPUT_FILE = DATA_FOLDER / 'OMIM_gene_mapped_comparison.xlsx'
-SHEET_NAME = 'Summary'
+DATA_FOLDER = SCRIPT_FOLDER / 'data'
+INPUT_FILE = DATA_FOLDER / 'Supplementary File 1.xlsx'
+SHEET_NAME = 'Table S5'
 ENSEMBL_COLUMN = 'Ensembl_ID'
 INTACT_ZIP = DATA_FOLDER / 'intact_human.zip'
 MAPPING_FILE = DATA_FOLDER / 'ensembl_uniprot_mapping.csv'
