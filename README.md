@@ -86,9 +86,10 @@ No numerical confidence threshold is applied. These annotations describe pathway
 
 
 ## Downstream analysis
-Script at [datavisual.ipynb](datavisual.ipynb)
-The data analysis of the input genes, interactions.
-1.1 Check the input genes for sources and cross-reference
-1.2 GO enrichment and pathway overpresentation analysis for the input genes
-1.3 Network edge sources distribution 
-1.4 HotNet2 output data visualization
+
+The [datavisual.ipynb](datavisual.ipynb) notebook analyzes input genes and interactions through the following steps:
+
+1. Check gene sources and cross-reference the input gene list.
+2. Perform GO enrichment and pathway overrepresentation analyses.
+3. Examine the distribution of interaction sources.
+4. Visualize HotNet2 results.
