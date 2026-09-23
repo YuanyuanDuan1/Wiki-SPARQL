@@ -18,4 +18,9 @@ Only get the MIM interactions from for the input lists and the metabolite/chemic
 output columns:source_label	source_ensembl	target_label	target_ensembl	interaction_type	pathway_id	pathway_count	pathway_name	evidence_count	source_database
 
 
-Part 2: Analyze the network
+Part 2: Analysis
+The data analysis on the genes, interactions is analysis.ipynb
+2.1 Check the input genes for sources and cross-reference
+2.2 GO enrichment and pathway overpresentation analysis for the input genes
+2.3 Network edge sources distribution 
+2.4 HotNet2 output data visualization
