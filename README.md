@@ -2,7 +2,7 @@
 Scripts for retrieving human gene-associated interactions from **STRING, IntAct, and WikiPathways** for genetic epilepsy network analysis. The Python scripts take Ensembl gene IDs as input and export filtered, undirected interaction tables for downstream analysis.
 
 
-
+![Graphical abstract](figures/graphical_abstract.png)
 
 
 ## Repository contents
