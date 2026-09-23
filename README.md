@@ -51,7 +51,7 @@ Default filters:
 
 `IntAct.py` maps input Ensembl gene IDs to UniProt accessions and reads the human IntAct MITAB archive. It retains human–human records with usable UniProt identifiers, applies protein-type and detection-method filters, and requires at least one endpoint to match the input set.
 
-The final MI-score range is **0.60–1.00**. The detection-method filter excludes missing methods and records matching specified inferred or predicted labels. This is an exclusion-based filter rather than an exhaustive classification of experimental methods.
+The final MI-score range is **0.60–1.00**. 
 
 ### WikiPathways
 
@@ -86,7 +86,7 @@ No numerical confidence threshold is applied. These annotations describe pathway
 
 
 ## Downstream analysis
-Part 2: Analysis
+Part 2: Analysis [datavisual.ipynb](datavisual.ipynb)
 The data analysis on the genes, interactions is analysis.ipynb
 2.1 Check the input genes for sources and cross-reference
 2.2 GO enrichment and pathway overpresentation analysis for the input genes
