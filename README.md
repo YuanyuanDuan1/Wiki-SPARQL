@@ -12,7 +12,7 @@ Scripts for retrieving human gene-associated interactions from **STRING, IntAct,
 | [STRING.py](STRING.py) | Retrieve STRING associations, apply confidence and evidence filters, and export unique protein pairs. |
 | [IntAct.py](IntAct.py) | Retrieve human IntAct interactions, apply MI-score and detection-method filters, and export unique protein pairs. |
 | [WP.py](WP.py) | Extract selected protein-level interactions from human WikiPathways GPML files. |
-| [exclude chemicals.txt](exclude%20chemicals.txt) | List of chemicals designated for exclusion from the interaction network. |
+| [metabolites to delete.xlsx](metabolites%20to%20delete.xlsx) | List of chemicals designated for exclusion from the interaction network. |
 | [datavisual.ipynb](datavisual.ipynb) | Jupyter notebook for data analysis and visualization. |
 
 ## Requirements
@@ -88,7 +88,7 @@ No numerical confidence threshold is applied. These annotations describe pathway
 ## Downstream analysis
 Script at [datavisual.ipynb](datavisual.ipynb)
 The data analysis of the input genes, interactions.
-2.1 Check the input genes for sources and cross-reference
-2.2 GO enrichment and pathway overpresentation analysis for the input genes
-2.3 Network edge sources distribution 
-2.4 HotNet2 output data visualization
+1.1 Check the input genes for sources and cross-reference
+1.2 GO enrichment and pathway overpresentation analysis for the input genes
+1.3 Network edge sources distribution 
+1.4 HotNet2 output data visualization
