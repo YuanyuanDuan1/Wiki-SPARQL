@@ -9,9 +9,9 @@ from xml.etree import ElementTree as ET
 import pandas as pd
 import requests
 SCRIPT_FOLDER = Path(__file__).resolve().parent
-DATA_FOLDER = SCRIPT_FOLDER / 'v3data'
-INPUT_FILE = DATA_FOLDER / 'OMIM_gene_mapped_comparison.xlsx'
-SHEET_NAME = 'Summary'
+DATA_FOLDER = SCRIPT_FOLDER / 'data'
+INPUT_FILE = DATA_FOLDER / 'Supplementary File 1.xlsx'
+SHEET_NAME = 'Table S5'
 ENSEMBL_COLUMN = 'Ensembl_ID'
 WIKIPATHWAYS_ZIP = DATA_FOLDER / 'wikipathways_human_gpml.zip'
 OUTPUT_EDGES = DATA_FOLDER / 'wikipathways_ppi_edges.csv'
