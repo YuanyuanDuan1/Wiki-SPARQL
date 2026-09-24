@@ -1,5 +1,5 @@
 # # Genetic Epilepsy Interaction Networks
-Scripts for retrieving human gene-associated interactions from **STRING, IntAct, and WikiPathways** for genetic epilepsy network analysis. The Python scripts take Ensembl gene IDs as input and export filtered, undirected interaction tables for downstream analysis.
+This repo is to retrieve human gene-associated interactions from **STRING, IntAct, and WikiPathways** for genetic epilepsy network analysis. The Python scripts take Ensembl gene IDs for the genes that are associated with epilepsy as input and export filtered, undirected interactions for downstream analysis.
 
 
 ![Graphical abstract](figures/graphical_abstract.png)
@@ -9,31 +9,25 @@ Scripts for retrieving human gene-associated interactions from **STRING, IntAct,
 
 | File | Purpose |
 | --- | --- |
-| [STRING.py](STRING.py) | Retrieve STRING associations, apply confidence and evidence filters, and export unique protein pairs. |
+| [STRING.py](STRING.py) | Retrieve human STRING associations, apply confidence and evidence filters, and export unique protein pairs. |
 | [IntAct.py](IntAct.py) | Retrieve human IntAct interactions, apply MI-score and detection-method filters, and export unique protein pairs. |
-| [WP.py](WP.py) | Extract selected protein-level interactions from human WikiPathways GPML files. |
-| [metabolites to delete.xlsx](metabolites%20to%20delete.xlsx) | List of chemicals designated for exclusion from the interaction network. |
+| [WP.py](WP.py) | Extract selected annotated interactions from human WikiPathways GPML files. |
+| [metabolites to delete.xlsx](metabolites%20to%20delete.xlsx) | List of chemicals designated for exclusion from the interaction network to avoid overrepresentation. |
 | [datavisual.ipynb](datavisual.ipynb) | Jupyter notebook for data analysis and visualization. |
 
 ## Requirements
 
 The Python scripts require Python 3 and the following packages:
-
 ```bash
 python -m pip install pandas requests openpyxl
 ```
 
 ## Input data
+The input workbook is in a `data` folder. Each script reads one Ensembl gene ID per row from the `Ensembl_ID` column and drops duplicate IDs.
 
-Place the input workbook in a `data` folder beside the scripts. Each script reads one Ensembl gene ID per row from the `Ensembl_ID` column, removes version suffixes, and drops duplicate IDs.
-
-The current default inputs differ between scripts:
-
-| Workbook in `data/` | Sheet | Column |
+| Workbook in `data/` | Sheet | Input Column |
 | --- | --- | --- |
 | `Supplementary File 1.xlsx` | `Table S5` | `Ensembl_ID` |
-
-Edit `INPUT_FILE`, `SHEET_NAME`, and `ENSEMBL_COLUMN` at the top of each script to match your workbook. To analyze the same gene set across all three resources, point all scripts to the same input.
 
 
 ## Interaction filters
