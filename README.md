@@ -43,7 +43,7 @@ Default filters:
 
 ### IntAct
 
-`IntAct.py` maps input Ensembl gene IDs to UniProt accessions and reads the human IntAct MITAB archive. It retains human–human records with usable UniProt identifiers, applies protein-type and detection-method filters, and requires at least one endpoint to match the input set.
+`IntAct.py` maps input Ensembl gene IDs to UniProt accessions and reads the human IntAct MITAB archive (version 20260114). It retains human–human records with usable UniProt identifiers, applies protein-type and detection-method filters, and requires at least one endpoint to match the input set.
 
 The final MI-score range is **0.60–1.00**. 
 
