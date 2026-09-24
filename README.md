@@ -1,6 +1,7 @@
 # # Genetic Epilepsy Interaction Networks
 This repo is to retrieve human gene-associated interactions from **STRING, IntAct, and WikiPathways** for genetic epilepsy network analysis. The Python scripts take Ensembl gene IDs for the genes that are associated with epilepsy as input and export filtered, undirected interactions for downstream analysis.
 
+The script can be adapted to different input genes and confidence filtering based on the application.
 
 ![Graphical abstract](figures/graphical_abstract.png)
 
