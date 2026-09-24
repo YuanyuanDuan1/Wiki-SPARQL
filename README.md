@@ -68,17 +68,16 @@ No numerical confidence threshold is applied. These annotations describe pathway
 
 ## Outputs
 
-| File | Contents |
-| --- | --- |
-| `string_ppi_edges.csv` | STRING protein pairs, endpoint identifiers and labels, combined scores, and evidence-channel scores. |
-| `string_edge_counts_by_score.csv` | STRING edge counts at each tested combined-score threshold. |
-| `unmapped_ensembl_ids_string.csv` | Input genes without STRING mappings, when reported. |
-| `intact_ppi_edges.csv` | IntAct protein pairs, endpoint identifiers and labels, MI scores, evidence counts, and publication metadata. |
-| `intact_edge_counts_by_score.csv` | IntAct edge counts at each tested MI-score threshold. |
-| `unmapped_ensembl_ids.csv` | Input genes without UniProt mappings, when reported. |
-| `wikipathways_ppi_edges.csv` | WikiPathways gene pairs, interaction annotations, pathway identifiers and names, and evidence counts. |
-| `genes_not_in_wikipathways.csv` | Input genes not encountered among the parsed interaction endpoints, when reported. |
-
+| Source | File | Contents |
+| --- | --- | --- |
+| 🔵 STRING | `string_ppi_edges.csv` | Protein pairs, endpoint identifiers and labels, combined scores, and evidence-channel scores. |
+| 🔵 STRING | `string_edge_counts_by_score.csv` | Edge counts at each tested combined-score threshold. |
+| 🔵 STRING | `unmapped_ensembl_ids_string.csv` | Input genes without STRING mappings, when reported. |
+| 🟢 IntAct | `intact_ppi_edges.csv` | Protein pairs, endpoint identifiers and labels, MI scores, evidence counts, and publication metadata. |
+| 🟢 IntAct | `intact_edge_counts_by_score.csv` | Edge counts at each tested MI-score threshold. |
+| 🟢 IntAct | `unmapped_ensembl_ids.csv` | Input genes without UniProt mappings, when reported. |
+| 🟠 WikiPathways | `wikipathways_ppi_edges.csv` | Gene pairs, interaction annotations, pathway identifiers and names, and evidence counts. |
+| 🟠 WikiPathways | `genes_not_in_wikipathways.csv` | Input genes not encountered among parsed interaction endpoints, when reported. |
 
 ## Downstream analysis
 
