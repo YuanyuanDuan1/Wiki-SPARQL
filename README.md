@@ -49,7 +49,7 @@ The final MI-score range is **0.60–1.00**.
 
 ### WikiPathways
 
-`WP.py` downloads a human GPML archive from the current WikiPathways release directory. It retains `GeneProduct` and `Protein` data nodes with explicit Ensembl cross-references and requires at least one interaction endpoint to match an input gene.
+`WP.py` downloads a human GPML archive (version 20260810) from the current WikiPathways release directory. It retains `GeneProduct` and `Protein` data nodes with explicit Ensembl cross-references and requires at least one interaction endpoint to match an input gene.
 
 The accepted interaction annotations are:
 
