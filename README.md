@@ -38,14 +38,14 @@ The input workbook is in a `data` folder. Each script reads one Ensembl gene ID 
 
 Default filters:
 
-- Final combined score: **990–1000**.
+- Chosen combined score: **990–1000**.
 - Experimental evidence: `experimental > 0` **or** `experimental_transferred > 0`.
 
 ### IntAct
 
 `IntAct.py` maps input Ensembl gene IDs to UniProt accessions and reads the human IntAct MITAB archive (version 20260114). It retains human–human records with usable UniProt identifiers, applies protein-type and detection-method filters, and requires at least one endpoint to match the input set.
 
-The final MI-score range is **0.60–1.00**. 
+The chosen MI-score range is **0.60–1.00**. 
 
 ### WikiPathways
 
